@@ -1,5 +1,6 @@
 import './App.css';
 import AddCounter from './components/AddCounter';
+import FullCounter from './components/FullCounter';
 import Counter from './components/useState';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Counter />
       <AddCounter />
+      <FullCounter />
     </div>
   );
 }

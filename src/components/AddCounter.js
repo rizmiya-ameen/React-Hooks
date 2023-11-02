@@ -17,6 +17,7 @@ const AddCounter = () => {
 
   return (
     <div>
+      <hr />
       <h1>{state.count}</h1>
       <button onClick={handleIncrement}>+</button>
     </div>
