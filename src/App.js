@@ -9,10 +9,14 @@ import RefTwo from './components/useRef2';
 import RefThree from './components/useRef3';
 import RefFour from './components/useRef4';
 import EffectOne from './components/useEffect/One';
+import EffectTwo from './components/useEffect/Two';
+import EffectThree from './components/useEffect/Three';
 
 function App() {
   return (
     <div className="App">
+      <EffectThree />
+      <EffectTwo />
       <EffectOne />
       <RefFour />
       <RefThree />

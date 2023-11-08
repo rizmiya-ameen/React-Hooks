@@ -44,7 +44,7 @@ const ToDo = () => {
     setName("")
   }
 
-  console.log(todos)
+  //console.log(todos)
 
   return (
     <div>
