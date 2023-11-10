@@ -13,12 +13,14 @@ import EffectTwo from './components/useEffect/Two';
 import EffectThree from './components/useEffect/Three';
 import MemoTwo from './components/useMemo/MemoTwo';
 import MemoFour from './components/useMemo/MemoFour';
+import BackOne from './components/useCallback/BackOne';
 //import MemoThree from './components/useMemo/MemoThree';
 //import MemoOne from './components/useMemo/MemoOne';
 
 function App() {
   return (
     <div className="App">
+      <BackOne />
       <MemoFour />
       {/*<MemoThree />*/}
       <MemoTwo />
