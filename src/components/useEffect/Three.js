@@ -58,6 +58,7 @@ const EffectThree = () => {
   
   return (
     <div>
+      <h1>useEffect</h1>
       <button onClick={handleIncrement}>+</button>
       <h1>{count}</h1>
       <button onClick={handleDecrement}>-</button>

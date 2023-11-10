@@ -17,6 +17,7 @@ const EffectTwo = () => {
   }, [])
   return (
     <div>
+      <h1>useEffect</h1>
       {windowWidth}
       <hr />
     </div>
