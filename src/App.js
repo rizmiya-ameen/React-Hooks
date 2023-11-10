@@ -11,10 +11,14 @@ import RefFour from './components/useRef4';
 import EffectOne from './components/useEffect/One';
 import EffectTwo from './components/useEffect/Two';
 import EffectThree from './components/useEffect/Three';
+import MemoTwo from './components/useMemo/MemoTwo';
+//import MemoOne from './components/useMemo/MemoOne';
 
 function App() {
   return (
     <div className="App">
+      <MemoTwo />
+      {/*<MemoOne />*/}
       <EffectThree />
       <EffectTwo />
       <EffectOne />
