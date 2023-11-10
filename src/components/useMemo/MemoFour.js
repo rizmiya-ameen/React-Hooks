@@ -20,6 +20,7 @@ const MemoFour = () => {
 
   return (
     <div>
+      <h1>useMemo</h1>
       <input type="number" value={number} onChange={(e) => setNumber(e.target.value)}/>
       <button onClick={() => setDark(prevColor => !prevColor)}>Change Theme</button>
       <h3 style={themeStyles}>{doubledNumber}</h3>
