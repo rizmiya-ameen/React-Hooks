@@ -26,7 +26,8 @@ function One() {
   const [state, dispatch] = useReducer(reducer, { count: 0, userInput: '', color: false })
 
   return (
-    <main style={{ color: state.color ? '#FFF' : '#FFF952' }}>
+    <main style={{ color: state.color ? 'black' : '#FFF952' }}>
+      <h4 style={{ color: 'black'}}>useReducer</h4>
       <input
         type="text"
         value={state.userInput}

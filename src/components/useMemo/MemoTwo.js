@@ -12,7 +12,7 @@ const MemoTwo = () => {
 
   return (
     <div>
-      <h1>useMemo</h1>
+      <h4>useMemo</h4>
       <h3>Count: {count}</h3>
       <h3>Selected Item: {selectedItem?.id}</h3>
       <button onClick={() => setCount(prevCount => prevCount + 1)}>Increment</button>

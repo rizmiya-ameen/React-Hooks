@@ -16,6 +16,7 @@ export default function Counter () {
   return (
     <div>
       <hr />
+      <h4>useState</h4>
       <button onClick={handleIncrement}>+</button>
       <h1>{count}</h1>
       <button onClick={handleDecrement}>-</button>

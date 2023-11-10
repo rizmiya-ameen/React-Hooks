@@ -17,7 +17,7 @@ const EffectTwo = () => {
   }, [])
   return (
     <div>
-      <h1>useEffect</h1>
+      <h4>useEffect</h4>
       {windowWidth}
       <hr />
     </div>

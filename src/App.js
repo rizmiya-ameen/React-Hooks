@@ -1,13 +1,13 @@
 import './App.css';
-import AddCounter from './components/AddCounter';
-import FullCounter from './components/FullCounter';
-import ToDo from './components/ToDo';
-import One from './components/useReducer4';
+import AddCounter from './components/useReducer/AddCounter';
+import FullCounter from './components/useReducer/FullCounter';
+import ToDo from './components/useReducer/ToDo';
+import One from './components/useReducer/useReducer4';
 import Counter from './components/useState';
-import RefOne from './components/useRef1';
-import RefTwo from './components/useRef2';
-import RefThree from './components/useRef3';
-import RefFour from './components/useRef4';
+import RefOne from './components/useRef/useRef2';
+import RefTwo from './components/useRef/useRef2';
+import RefThree from './components/useRef/useRef3';
+import RefFour from './components/useRef/useRef4';
 import EffectOne from './components/useEffect/One';
 import EffectTwo from './components/useEffect/Two';
 import EffectThree from './components/useEffect/Three';
@@ -26,15 +26,20 @@ function App() {
       <EffectThree />
       <EffectTwo />
       <EffectOne />
+      
       <RefFour />
       <RefThree />
       <RefTwo />
+      <RefOne />
+
       <One />
       <ToDo />
-      <Counter />
       <AddCounter />
       <FullCounter />
-      <RefOne />
+
+      
+
+      <Counter />
     </div>
   );
 }

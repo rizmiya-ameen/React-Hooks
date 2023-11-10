@@ -48,7 +48,7 @@ const EffectOne = () => {
 
   return (
     <div>
-      <h1>useEffect</h1>
+      <h4>useEffect</h4>
       <button onClick={() => setResourceType("Posts")}>Posts</button>
       <button onClick={() => setResourceType("Users")}>Users</button>
       <button onClick={() => setResourceType("Comments")}>Comments</button>

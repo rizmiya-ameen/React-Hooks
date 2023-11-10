@@ -34,6 +34,7 @@ const FullCounter = () => {
   return (
     <div>
       <hr />
+      <h4>useReducer</h4>
       <button onClick={handleIncrement}>+</button>
       <h1>{state.count}</h1>
       <button onClick={handleDecrement}>-</button>
