@@ -16,7 +16,7 @@ const BackTwo = () => {
     }, [buildArray]);
 
   return (
-    <main className="App">
+    <main>
             <input type="text" placeholder="input" value={userInput} onChange={(e) => setUserInput(e.target.value)} />
             <h1>Output: {userInput || "--"}</h1>
             <p>Result: {JSON.stringify(result)}</p>
