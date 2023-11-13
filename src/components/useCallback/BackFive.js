@@ -25,7 +25,7 @@ const BackFive = () => {
     <main>
             <input type="text" placeholder="input" value={userInput} onChange={(e) => setUserInput(e.target.value)} />
             <h1>Output: {userInput || "--"}</h1>
-            
+            <p>Result: {JSON.stringify(result)}</p>
             <hr />
         </main>
   )
@@ -34,4 +34,3 @@ const BackFive = () => {
 
 export default BackFive
 
-//<p>Result: {JSON.stringify(result)}</p>
