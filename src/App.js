@@ -15,8 +15,9 @@ import MemoTwo from './components/useMemo/MemoTwo';
 import MemoFour from './components/useMemo/MemoFour';
 //import BackOne from './components/useCallback/BackOne';
 //import BackTwo from './components/useCallback/BackTwo';
-import BackThree from './components/useCallback/BackThree';
-import BackFour from './components/useCallback/BackFour';
+//import BackThree from './components/useCallback/BackThree';
+//import BackFour from './components/useCallback/BackFour';
+import BackFive from './components/useCallback/BackFive';
 //import MemoThree from './components/useMemo/MemoThree';
 //import MemoOne from './components/useMemo/MemoOne';
 
@@ -27,9 +28,10 @@ function App() {
       <BackOne />
       <BackTwo />
       <BackThree />
+      <BackFour />
       */}
       
-      <BackFour />
+      <BackFive />
 
       <MemoFour />
       {/*<MemoThree />*/}
