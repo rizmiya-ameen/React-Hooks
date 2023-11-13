@@ -10,9 +10,10 @@ const BackOne = () => {
   const [ num2 ] = useState(5);
 
   const sum = () => num1 + num2;
+  //actually this function is recreated everytime the component re-renders. so useEffect also executed everytimr the component re-renders.
 
   useEffect(() => {
-    console.log(sum());
+    console.log(`sum is : ${sum()}`);
   }, [sum]);
 
   return (
@@ -25,7 +26,7 @@ const BackOne = () => {
         value={userInput}
         onChange={(e) => setUserInput(e.target.value)}
       />
-      <p>{userInput}</p>
+      <p>{userInput? userInput : "--"}</p>
       <hr />
     </div>
   )
@@ -34,3 +35,8 @@ const BackOne = () => {
 export default BackOne
 
 //useCallback returns a memorized function.
+
+// here when i update userInput (example "Rizmiya"), console logs  "sum is : 9" 7 times, eventhough the sum hasnt changed.
+
+
+

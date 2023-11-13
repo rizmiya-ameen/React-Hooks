@@ -55,7 +55,7 @@ const EffectOne = () => {
       <h3>{resourceType}</h3>
 
       {items.slice(0,5).map(item => {
-        return <pre>{JSON.stringify(item)}</pre>
+        return <pre key={item.id}>{JSON.stringify(item)}</pre>
       })}
       <hr />
     </div>
