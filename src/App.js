@@ -20,12 +20,17 @@ import MemoFour from './components/useMemo/MemoFour';
 import BackFive from './components/useCallback/BackFive';
 //import CallOne from './components/useCallback/CallOne';
 import CallTwo from './components/useCallback/CallTwo';
+import OneLayout from './components/useLayouteffect/OneLayout';
+import TwoLayout from './components/useLayouteffect/TwoLayout';
 //import MemoThree from './components/useMemo/MemoThree';
 //import MemoOne from './components/useMemo/MemoOne';
 
 function App() {
   return (
     <div className="App">
+
+      <OneLayout />
+      <TwoLayout />
 
       {/*<CallOne />*/}
       <CallTwo />
