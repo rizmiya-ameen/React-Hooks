@@ -23,7 +23,6 @@ import CallTwo from './components/useCallback/CallTwo';
 import OneLayout from './components/useLayouteffect/OneLayout';
 import TwoLayout from './components/useLayouteffect/TwoLayout';
 import ThreeLayout from './components/useLayouteffect/ThreeLayout';
-import FourLayout from './components/useLayouteffect/FourLayout';
 //import MemoThree from './components/useMemo/MemoThree';
 //import MemoOne from './components/useMemo/MemoOne';
 
@@ -31,7 +30,6 @@ function App() {
   return (
     <div className="App">
 
-      <FourLayout />
       <ThreeLayout />
       <TwoLayout />
       <OneLayout />
