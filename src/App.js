@@ -10,7 +10,7 @@ import RefThree from './components/useRef/useRef3';
 import RefFour from './components/useRef/useRef4';
 import EffectOne from './components/useEffect/One';
 import EffectTwo from './components/useEffect/Two';
-import EffectThree from './components/useEffect/Three';
+//import EffectThree from './components/useEffect/Three';
 import MemoTwo from './components/useMemo/MemoTwo';
 import MemoFour from './components/useMemo/MemoFour';
 //import BackOne from './components/useCallback/BackOne';
@@ -18,12 +18,18 @@ import MemoFour from './components/useMemo/MemoFour';
 //import BackThree from './components/useCallback/BackThree';
 //import BackFour from './components/useCallback/BackFour';
 import BackFive from './components/useCallback/BackFive';
+//import CallOne from './components/useCallback/CallOne';
+import CallTwo from './components/useCallback/CallTwo';
 //import MemoThree from './components/useMemo/MemoThree';
 //import MemoOne from './components/useMemo/MemoOne';
 
 function App() {
   return (
     <div className="App">
+
+      {/*<CallOne />*/}
+      <CallTwo />
+
       {/*
       <BackOne />
       <BackTwo />
